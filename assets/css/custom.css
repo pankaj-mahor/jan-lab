@@ -84,3 +84,94 @@ background: linear-gradient(52deg, rgba(255,255,255,1) 0%, rgba(255,103,31,.8) 9
       -webkit-overflow-scrolling: touch;
   }
 }
+
+.login__screen h4{
+  text-align: center !important;
+  margin-top: 1.5rem;
+}
+
+
+/* .custom-file__input {
+  position: absolute;
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  text-align: center;
+  z-index: -1;
+}
+.custom-file__label {
+  text-align: center;
+
+  position: relative;
+  display: block;
+  width: 50%;
+  margin: 10px 0;
+  padding: 0;
+  background: #ffffff;
+  border: 1px solid #dfdfdf;
+  color: #666666;
+  line-height: 45px;
+  text-align: center;
+  text-transform: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.custom-file__input:valid ~ .custom-file__label {
+  border-color: #39b54a;
+  background: #39b54a;
+  color: #39b54a;
+}
+.custom-file__input:valid ~ .custom-file__label:before {
+  content: "\f00c";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: #ffffff;
+  font-family: "FontAwesome";
+  line-height: 45px;
+} */
+
+.custom-file {
+  margin-bottom: 2rem;
+  border: 2px dashed;
+  border-radius: 5px;
+  height: max-content;
+  padding: 0.5rem 0.2rem;
+}
+.custom-file label {
+  width: 100%;
+}
+/* .custom-file label:hover {
+  background-color: #ccc;
+} */
+.isVisuallyHidden {
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.upload-btn{
+  margin-top: 0.5rem;
+  display: inline-block;
+  width:100%;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  border: 1px solid var(--green);
+  color: var(--green);
+  outline: none;
+  background: transparent;
+  border-radius: 5px;
+}
+.upload-btn:hover{
+  background-color: var(--green);
+  color: #fff;
+}

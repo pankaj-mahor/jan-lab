@@ -599,6 +599,7 @@ header
   }
   .header-area .main-nav {
     overflow: hidden;
+    text-align: left;
   }
   .header-area .main-nav .nav {
     float: none;
